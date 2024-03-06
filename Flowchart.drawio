@@ -1,0 +1,180 @@
+<mxfile host="Electron" modified="2024-03-06T08:05:20.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Jj7zg2FrTjI43RGHfld4" version="23.1.5" type="device">
+  <diagram name="Page-1" id="EyZ-gXlCCgJj52IrdBwu">
+    <mxGraphModel dx="2023" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-382.5" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-2" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-382.5" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-1" target="6_Nppzn4eODVC6SGdOL_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-152.5" y="350" as="sourcePoint" />
+            <mxPoint x="-102.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-4" value="Login siswa dan guru" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-392.5" y="32.5" width="122.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-5" value="Algoritma Login siswa dan guru" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-251.25" y="97.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-6" value="1.Mulai&lt;br&gt;2. Login&lt;br&gt;3.Input Username dan Password&lt;br&gt;4. Jika Username dan Password benar maka akan dilanjutkan ke halaman selanjutnya&lt;br&gt;5. Jika salah makan Login ulang kembali&lt;br&gt;6. Selesai" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-241.25" y="170" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-7" value="Input Username dan Password" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="260" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-2" target="6_Nppzn4eODVC6SGdOL_-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-152.5" y="350" as="sourcePoint" />
+            <mxPoint x="-102.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-9" value="Jika salah maka Login ulang kembali" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-192.5" y="395" width="102.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-10" value="Apakah sudah benar?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="370" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-7" target="6_Nppzn4eODVC6SGdOL_-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-332.5" y="330" as="sourcePoint" />
+            <mxPoint x="-122.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-12" value="Tidak" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-10" target="6_Nppzn4eODVC6SGdOL_-9">
+          <mxGeometry x="-0.0811" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-172.5" y="390" as="sourcePoint" />
+            <mxPoint x="-122.5" y="340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-9" target="6_Nppzn4eODVC6SGdOL_-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-172.5" y="390" as="sourcePoint" />
+            <mxPoint x="-142.5" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-142.5" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-14" value="Masuk ke halaman selanjutnya" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-392.5" y="520" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-10" target="6_Nppzn4eODVC6SGdOL_-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-172.5" y="650" as="sourcePoint" />
+            <mxPoint x="-122.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-18" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6_Nppzn4eODVC6SGdOL_-15">
+          <mxGeometry x="-0.0504" y="2" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-16" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-373.75" y="610" width="72.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-14" target="6_Nppzn4eODVC6SGdOL_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-172.5" y="650" as="sourcePoint" />
+            <mxPoint x="-122.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-22" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-23" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="185" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-24" value="Input NIP dan kode admin" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-22" target="6_Nppzn4eODVC6SGdOL_-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="145" as="sourcePoint" />
+            <mxPoint x="70" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-23" target="6_Nppzn4eODVC6SGdOL_-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="245" as="sourcePoint" />
+            <mxPoint x="70" y="195" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-30" value="Algoritma Login Admin" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="152" y="150" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-31" value="Apakah sudah benar?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="375" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-24" target="6_Nppzn4eODVC6SGdOL_-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="245" as="sourcePoint" />
+            <mxPoint x="70" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-33" value="Jika salah maka Login ulang kembali" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="405" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-31" target="6_Nppzn4eODVC6SGdOL_-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="245" as="sourcePoint" />
+            <mxPoint x="70" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-41" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6_Nppzn4eODVC6SGdOL_-34">
+          <mxGeometry x="-0.0944" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-33" target="6_Nppzn4eODVC6SGdOL_-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="245" as="sourcePoint" />
+            <mxPoint x="70" y="195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-36" value="Masuk ke halaman admin untuk melanjutkan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-31" target="6_Nppzn4eODVC6SGdOL_-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="245" as="sourcePoint" />
+            <mxPoint x="70" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-40" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6_Nppzn4eODVC6SGdOL_-37">
+          <mxGeometry x="-0.2125" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-38" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="635" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6_Nppzn4eODVC6SGdOL_-36" target="6_Nppzn4eODVC6SGdOL_-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="585" as="sourcePoint" />
+            <mxPoint x="70" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-43" value="1. Mulai&lt;br&gt;2. Login&lt;br&gt;3. input NIP dan kode admin&lt;br&gt;4. Jika benar maka akan dilanjutkan ke halaman login admin&lt;br&gt;5. Jika salah makan Login ulang kembali&lt;br&gt;6. Logout&lt;br&gt;7. Selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="152" y="180" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-44" value="Login admin" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="40" width="122.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6_Nppzn4eODVC6SGdOL_-46" value="1. Mulai&lt;br&gt;2. Login sebagai admin sekolah&lt;br&gt;3.Input Username dan Password dengan benar&lt;br&gt;4. Jika belum benar maka akan dikembalikan ke halaman login&lt;br&gt;5. Jika sudah benar maka akan diarahkan ke halaman admin Sekolah&lt;br&gt;6. Selesai" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1210" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
